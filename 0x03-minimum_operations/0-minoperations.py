@@ -6,8 +6,7 @@ def minOperations(n):
     end = 0
 
     for iter in range(2, n):
-        while (n % iter == 0):
+        while n % iter == 0:
             end += iter
             n = n / iter
         return end
-    
