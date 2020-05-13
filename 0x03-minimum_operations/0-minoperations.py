@@ -9,4 +9,4 @@ def minOperations(n):
         while n % iter == 0:
             end += iter
             n = n / iter
-        return end
+    return end
